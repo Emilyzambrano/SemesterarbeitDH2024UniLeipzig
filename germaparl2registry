@@ -1,0 +1,54 @@
+##
+## registry entry for corpus GERMAPARL2
+##
+
+# long descriptive name for the corpus
+NAME ""
+# corpus ID (must be lowercase in registry!)
+ID   germaparl2
+# path to binary data files
+HOME "C:/Users/Nutzer/cwb/indexed_corpora/germaparl2"
+# optional info file (displayed by ",info;" command in CQP)
+INFO "C:/Users/Nutzer/cwb/indexed_corpora/germaparl2/info.md"
+
+# corpus properties provide additional information about the corpus:
+##:: charset = "utf8"
+##:: language = "de"
+##:: version = "v2.0.1"
+##:: build_date = "2023-12-19"
+##:: type = "plpr"
+##:: doi = "10.5281/zenodo.10416536"
+#========================================================================#
+
+
+##
+## p-attributes (token annotations)
+##
+
+ATTRIBUTE word
+ATTRIBUTE upos
+ATTRIBUTE xpos
+ATTRIBUTE lemma
+
+##
+## s-attributes
+##
+
+STRUCTURE speaker
+STRUCTURE speaker_who
+STRUCTURE speaker_name
+STRUCTURE speaker_parlgroup
+STRUCTURE speaker_party
+STRUCTURE speaker_role
+STRUCTURE p
+STRUCTURE p_type
+STRUCTURE ne
+STRUCTURE ne_type
+STRUCTURE protocol
+STRUCTURE protocol_lp
+STRUCTURE protocol_no
+STRUCTURE protocol_date
+STRUCTURE protocol_year
+STRUCTURE protocol_url
+STRUCTURE protocol_filetype
+STRUCTURE s
